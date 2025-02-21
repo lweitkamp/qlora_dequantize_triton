@@ -1,0 +1,12 @@
+[project]
+name = "nf4-triton"
+version = "0.1.0"
+description = "QLoRA dequantization kernels in Triton."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bitsandbytes>=0.45.3",
+    "peft>=0.14.0",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+]
