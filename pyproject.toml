@@ -1,5 +1,5 @@
 [project]
-name = "nf4-triton"
+name = "qlora_dequantize_triton"
 version = "0.1.0"
 description = "QLoRA dequantization kernels in Triton."
 readme = "README.md"
